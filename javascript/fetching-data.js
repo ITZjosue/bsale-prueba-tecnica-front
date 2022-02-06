@@ -1,7 +1,7 @@
 const productContainer = document.getElementById('products-container')
 const categoriesContainer = document.getElementById('categories-container')
 
-const mainRoute = 'http://localhost:3001/api'
+const mainRoute = 'https://back-1.herokuapp.com/api'
 
 const productCard = (product)=>{
   return(
