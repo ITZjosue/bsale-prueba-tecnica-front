@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Roboto:wght@300;500&family=Yellowtail&display=swap");
+.bg-own {
+  background: black !important;
+}
+
+.navbar-own-style {
+  background: #161616;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+
+.navbar-own-style li :hover {
+  color: white;
+}
+
+.navbar-own-style li a {
+  color: white;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-brand :hover {
+  color: white !important;
+}
+
+.navbar-brand > span {
+  font-family: 'Yellowtail', cursive;
+  font-size: 1.5em;
+}
+
+#product-search > input {
+  border-radius: 20px !important;
+}
+
+#banner img {
+  height: 600px;
+  width: 100%;
+}
+
+#banner h1 {
+  border: white solid 5px;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  #banner h1 {
+    font-size: 1.5em;
+    left: 0;
+  }
+}
+
+@media (max-width: 426px) {
+  #banner h1 {
+    width: 100%;
+    left: 0;
+    font-size: 1em;
+    text-align: center;
+  }
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card > img {
+  height: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card > .card-body {
+  height: 50%;
+  color: white;
+  background: black;
+  z-index: 1;
+}
+
+.card > .card-body p:nth-child(1) {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: 800;
+}
+
+.card > .card-body p {
+  width: 100%;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+#product-card-container :hover #triangle-effect {
+  top: 100%;
+}
+
+#product-card-container :hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#triangle-effect {
+  width: 100%;
+  background: black;
+  height: 100px;
+  -webkit-transform: rotate(-9deg);
+          transform: rotate(-9deg);
+  top: 45%;
+  left: 3%;
+  z-index: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=own-styles.css.map */

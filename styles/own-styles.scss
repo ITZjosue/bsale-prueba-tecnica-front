@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Roboto:wght@300;500&family=Yellowtail&display=swap');
+.bg-own{
+    background: black !important;
+}
+.navbar-own-style{
+    background: rgb(22, 22, 22);
+    li{
+        :hover{
+            color: white;
+        }
+        a{
+            color: white;
+        }
+    }
+    z-index: 2;
+    // border:black 1px solid;
+    width: 100%;
+    top: 0;
+}
+.navbar-brand{
+    color: white !important;
+    :hover{
+        color: white !important;
+    }
+    >span{
+        font-family: 'Yellowtail', cursive;
+        font-size: 1.5em;
+    }
+}
+
+#product-search{
+    > input{
+        border-radius: 20px !important;
+    }
+}
+
+#banner{
+    img{
+    height: 600px;
+    width: 100%;
+    }
+    h1{
+        border: white solid 5px;
+        z-index: 1;
+        @media (max-width:768px) {
+            font-size: 1.5em;
+            left: 0;
+        }
+        @media (max-width:426px) {
+            width: 100%;
+            left: 0;
+            font-size: 1em;
+            text-align: center;
+        }
+    }
+}
+
+.card{
+    overflow: hidden;
+    >img{
+        height: 50%;
+        transition: 0.5s;
+    }
+    >.card-body{
+        height: 50%;
+        color: white;
+        p:nth-child(1){
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.1em;
+            font-weight: 800;
+        }
+        p{
+         width: 100%;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;   
+        }
+        background: rgb(0, 0, 0);
+        z-index: 1;
+    }
+}
+
+#product-card-container{
+    :hover{
+        #triangle-effect{
+            top: 100%;
+        }        
+        img{
+            transform: scale(1.2);
+        }
+    }
+}
+
+#triangle-effect{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    height: 100px;
+    transform: rotate(-9deg);
+    top: 45%;
+    left: 3%;
+    z-index: 0;
+    transition: 0.5s;
+}
