@@ -3,8 +3,8 @@
 <h2>Funcionalidades: </h2>
 <li> Ordenamiento de alfabético de los productos </li>
 <li> Filtrado por categorías de productos </li>
-<li> Barra de búqueda por nombre </li>
-
+<li> Barra de búqueda por nombre </li></br></br>
+<h2> Detalles </h2>
 <li> Para la construcción del front se usó vanila JS, HTML5, CSS3 y Boostrap </li>
 
 <li> El manejo de las peticiones al back se hizo mediante uso de la api "fetch" de Javascript</li>
